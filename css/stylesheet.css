@@ -1,3 +1,61 @@
 /* ########################### */
 /*  Stylesheet used for site   */
 /* ########################### */
+
+body{
+  font: 15 px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* Global */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Header */
+header{
+  background: #35424a; /* Color used for backround color of header */
+  color: #ffffff; /* Color of text in header */
+  padding-top: 25px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+/* Used to Modify the text of menu on the header*/
+header a{
+  color: #ffffff; /* Color of text  */
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/* Unordered List Modifications */
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* Modifies the Position of the menu on the header */
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px; /* Padding modifier in the order of: Top, Right, Bottom, Left */
+}
+
+/* "#branding" specifically focuses on containers with ID=branding */
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
