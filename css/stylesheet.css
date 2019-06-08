@@ -39,7 +39,7 @@ header ul{
 /* Header  Modifications */
 /* ##################### */
 
-/* Header defaults */
+/* Header modifications as a whole */
 header{
   background: #35424a; /* Color used for backround color of header */
   color: #ffffff; /* Color of text in header */
@@ -93,10 +93,10 @@ header a:hover{
 /* Eatery Image Modifications */
 /* ########################## */
 
-/* Used to modify image appearance for ID=Eatery */
+/* Used to modify 'ID = Eatery' as a whole */
 #Eatery{
   min-height: 400px;
-  background:url('../img/Eatery.jpg') no-repeat 0 -700px;
+  background:url('../img/Eatery.jpg') no-repeat 0 -640px;
   text-align: center;
   color: #ffffff;
 }
@@ -115,7 +115,7 @@ header a:hover{
 /* Newsletter  Modifications */
 /* ######################### */
 
-/* Modifier for the newsletter background */
+/* Modifier for the newsletter as a whole */
 #newsletter{
   padding:15px;
   color: #ffffff; /* Color of text */
