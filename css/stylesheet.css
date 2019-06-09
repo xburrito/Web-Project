@@ -216,3 +216,45 @@ footer{
   background-color: #e8491d;
   text-align: center;
 }
+
+/* ############# */   /* Used to resize and modify Website layout */
+/* Media Queries */   /* when viewing on devices other than a     */
+/* ############# */   /* desktop such as a smartphone or tablet   */
+
+/* Standard Modifications When Viewing on a Tablet or handheld device*/
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #Boxes .box,
+  article#main-col,
+  aside#sidebar
+  {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+
+  #Eatery h1{
+    margin-top: 40px;
+  }
+
+  #newsletter button, .quote button{
+    display: block;
+    width: 100%;
+  }
+
+  #newsletter form input[type = "email"],
+  .quote input,
+  .quote textarea
+  {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
