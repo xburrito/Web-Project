@@ -35,9 +35,9 @@ header ul{
   color:#ffffff; /* Color of text on button */
 }
 
-/* ##################### */
-/* Header  Modifications */
-/* ##################### */
+/* #################### */
+/* Header Modifications */
+/* #################### */
 
 /* Header modifications as a whole */
 header{
@@ -111,9 +111,9 @@ header a:hover{
   font-size: 20px;
 }
 
-/* ######################### */
-/* Newsletter  Modifications */
-/* ######################### */
+/* ######################## */
+/* Newsletter Modifications */
+/* ######################## */
 
 /* Modifier for the newsletter as a whole */
 #newsletter{
@@ -137,6 +137,36 @@ header a:hover{
   width: 250px;
 }
 
+/* ################### */
+/* Boxes Modifications */
+/* ################### */
+
+/* Modifier for the newsletter as a whole */
+#Boxes{
+  margin-top: 20px;
+}
+
+/* Modifies containers with 'class = box' within 'ID = Boxes' section */
+#Boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+/* Modifies images within the 'class = box' */
+#Boxes .box img{
+  width: 90px;
+}
+
 /* #################### */
-/* Boxes  Modifications */
+/* Footer Modifications */
 /* #################### */
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color:#ffffff;
+  background-color: #e8491d;
+  text-align: center;
+}
