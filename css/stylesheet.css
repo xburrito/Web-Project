@@ -35,6 +35,15 @@ header ul{
   color:#ffffff; /* Color of text on button */
 }
 
+/* Darkens containers that have 'class = dark' */
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* #################### */
 /* Header Modifications */
 /* #################### */
@@ -157,6 +166,25 @@ header a:hover{
 /* Modifies images within the 'class = box' */
 #Boxes .box img{
   width: 90px;
+}
+
+/* ##################### */
+/* Sidebar Modifications */
+/* ##################### */
+
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+/* ###################### */
+/* Main-Col Modifications */
+/* ###################### */
+
+article#main-col{
+  float: left;
+  width: 65%;
 }
 
 /* #################### */
