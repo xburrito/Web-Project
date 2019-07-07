@@ -38,7 +38,7 @@ header ul{
 /* Darkens containers that have 'class = dark' */
 .dark{
   padding: 15px;
-  background: #35424a;
+  background: #000000;
   color: #ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -50,7 +50,7 @@ header ul{
 
 /* Header modifications as a whole */
 header{
-  background: #35424a; /* Color used for backround color of header */
+  background: #000000; /* Color used for backround color of header */
   color: #ffffff; /* Color of text in header */
   padding-top: 25px;
   min-height: 70px;
@@ -128,7 +128,7 @@ header a:hover{
 #newsletter{
   padding:15px;
   color: #ffffff; /* Color of text */
-  background: #35424a; /* Background color */
+  background: #000000; /* Background color */
 }
 
 #newsletter h1{
@@ -213,7 +213,7 @@ footer{
   padding: 20px;
   margin-top: 20px;
   color:#ffffff;
-  background-color: #e8491d;
+  background-color: #000000;
   text-align: center;
 }
 
