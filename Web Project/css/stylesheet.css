@@ -1,0 +1,260 @@
+/* ############################ */
+/* STYLESHEET CSS USED FOR SITE */
+/* ############################ */
+
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/* #################### */
+/* Global Modifications */
+/* #################### */
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Unordered List Modifications */
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+.button_1{
+  height: 38px;
+  background:#e8491d; /* Color of button background */
+  border:0; /* By default, borders will exist around a default button */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  color:#ffffff; /* Color of text on button */
+}
+
+/* Darkens containers that have 'class = dark' */
+.dark{
+  padding: 15px;
+  background: #000000;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* #################### */
+/* Header Modifications */
+/* #################### */
+
+/* Header modifications as a whole */
+header{
+  background: #000000; /* Color used for backround color of header */
+  color: #ffffff; /* Color of text in header */
+  padding-top: 25px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+/* Used to Modify the text of menu on the header*/
+header a{
+  color: #ffffff; /* Color of text  */
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+/* Modifies the Position of the menu on the header */
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px; /* Padding modifier in the order of: Top, Right, Bottom, Left */
+}
+
+/* "#branding" specifically focuses on containers with ID=branding */
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+/* In HTML, ".*" modifies containers using .* as some class */
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+/* Modifies behavior of the menu items when hovering over them*/
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* ########################## */
+/* Eatery Image Modifications */
+/* ########################## */
+
+/* Used to modify 'ID = Eatery' as a whole */
+#Eatery{
+  min-height: 400px;
+  background:url('../img/Eatery.jpg') no-repeat 0 -640px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#Eatery h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#Eatery p{
+  font-size: 20px;
+}
+
+/* ######################## */
+/* Newsletter Modifications */
+/* ######################## */
+
+/* Modifier for the newsletter as a whole */
+#newsletter{
+  padding:15px;
+  color: #ffffff; /* Color of text */
+  background: #000000; /* Background color */
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form{
+  float: right; /* Repositions the subscribe bar*/
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+/* ################### */
+/* Boxes Modifications */
+/* ################### */
+
+/* Modifier for the newsletter as a whole */
+#Boxes{
+  margin-top: 20px;
+}
+
+/* Modifies containers with 'class = box' within 'ID = Boxes' section */
+#Boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+/* Modifies images within the 'class = box' */
+#Boxes .box img{
+  width: 90px;
+}
+
+/* ##################### */
+/* Sidebar Modifications */
+/* ##################### */
+
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+/* Modifies input text areas within the 'Get A Quote' form box */
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width: 90%;
+  padding: 5px;
+}
+
+/* ###################### */
+/* Main-Col Modifications */
+/* ###################### */
+
+article#main-col{
+  float: left;
+  width: 65%;
+}
+
+/* ###################### */
+/* Services Modifications */
+/* ###################### */
+
+ul#services li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+/* #################### */
+/* Footer Modifications */
+/* #################### */
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color:#ffffff;
+  background-color: #000000;
+  text-align: center;
+}
+
+/* ############# */   /* Used to resize and modify Website layout */
+/* Media Queries */   /* when viewing on devices other than a     */
+/* ############# */   /* desktop such as a smartphone or tablet   */
+
+/* Standard Modifications When Viewing on a Tablet or handheld device*/
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #Boxes .box,
+  article#main-col,
+  aside#sidebar
+  {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header{
+    padding-bottom: 20px;
+  }
+
+  #Eatery h1{
+    margin-top: 40px;
+  }
+
+  #newsletter button, .quote button{
+    display: block;
+    width: 100%;
+  }
+
+  #newsletter form input[type = "email"],
+  .quote input,
+  .quote textarea
+  {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}
